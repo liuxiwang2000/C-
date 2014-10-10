@@ -8,11 +8,14 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[])
+int main(int argc, const char * argv[])//数量和值
 {
 
     // insert code here...
-    printf("Hello, World!\n");
+    printf("Hello, C!\n");
+    for (int x=0; x<argc; x++) {
+        printf("%s\n",argv[x]);
+    }
     return 0;
 }
 
